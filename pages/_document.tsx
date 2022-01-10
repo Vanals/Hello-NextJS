@@ -11,7 +11,7 @@ export default class CustomDocument extends Document {
     super(props);
   }
 
-  // UNCOMMENT TO REPRODUCE BUG
+  // UNCOMMENT TO REPRODUCE BUG(?) with Head component
   
   // static async getInitialProps(ctx) {
   //   const {html} = await ctx.renderPage();
